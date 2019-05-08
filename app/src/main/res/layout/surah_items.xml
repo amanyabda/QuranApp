@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/lay1"
+    android:weightSum="4"
+    android:background="@drawable/backgtound_maeesag"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text=""
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="#616161"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:id="@+id/no_sur"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text=""
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:background="@drawable/background1"
+            android:id="@+id/name_sur"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text=""
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:background="@drawable/background1"
+            android:layout_weight="1"
+            android:id="@+id/no_ayats"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text=""
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="@drawable/background1"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:id="@+id/type_sur"
+            />
+
+
+
+    </LinearLayout>
+
